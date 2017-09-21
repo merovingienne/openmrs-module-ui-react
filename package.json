@@ -1,0 +1,25 @@
+{
+  "name": "openmrs-ui-react",
+  "version": "0.0.1",
+  "description": "React Component Library for OpenMRS",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "test"
+  },
+  "keywords": [
+    "OpenMRS",
+    "React",
+    "UI"
+  ],
+  "author": "Chanuka Wijayakoon",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@storybook/react": "^3.2.12"
+  },
+  "dependencies": {
+    "material-ui": "^0.19.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
