@@ -23,10 +23,12 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
+    "prop-types": "^15.6.0",
     "storybook-addon-material-ui": "^0.8.2",
     "webpack": "^3.10.0"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "material-ui": "^0.19.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
