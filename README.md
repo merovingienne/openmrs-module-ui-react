@@ -7,7 +7,7 @@ This is a React component library to be used when developing OpenMRS modules.
 
 [Node.js](https://nodejs.org/en/) is required for development.
 
-Simply clone the repository and run the following commands at the project root.
+Simply clone the repository and install dependencies.
 
 ```
 git clone https://github.com/merovingienne/openmrs-module-ui-react.git
