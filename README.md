@@ -7,11 +7,12 @@ This is a React component library to be used when developing OpenMRS modules.
 
 [Node.js](https://nodejs.org/en/) is required for development.
 
-Simply clone the repository and install dependencies.
+Simply fork the repository, **clone the fork**, change to develop branch and install dependencies.
 
 ```
 git clone https://github.com/merovingienne/openmrs-module-ui-react.git
 cd openmrs-module-ui-react
+git checkout develop
 npm install
 ```
 
@@ -21,9 +22,10 @@ npm install
 # Development Guide
 
 When adding a new component,
-1. In `src/components`, create new folder with the component name.
-2. Create `index.jsx` file with component source, and add `_story.jsx` to view stories through Storybook.
-3. Add component to `src/index.js`.
+1. Create a new branch **from develop branch**.
+2. In `src/components`, create new folder with the component name.
+3. Create `index.jsx` file with component source, and add `_story.jsx` to view stories through Storybook.
+4. Add component to `src/index.js`.
 
 
 ### Naming conventions
