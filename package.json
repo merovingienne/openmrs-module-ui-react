@@ -30,6 +30,9 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "material-ui": "^0.19.4",
+    "moment": "^2.20.1",
+    "rc-calendar": "^9.4.0",
+    "rc-time-picker": "^3.2.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }

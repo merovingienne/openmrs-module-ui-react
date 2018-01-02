@@ -1,0 +1,50 @@
+.rc-calendar-selected-date .rc-calendar-date {
+    background: #009384 !important;
+}
+
+.rc-calendar-date:hover  {
+    background: #0093843b;
+}
+
+.rc-calendar-selected-day .rc-calendar-date {
+    background: #0093843b;
+}
+.rc-calendar-range .rc-calendar-in-range-cell {
+    background: #0093841a;
+}
+
+.rc-calendar-today .rc-calendar-date {
+    border: 1px solid #009384;
+}
+
+.rc-calendar-today-btn, .rc-calendar-ok-btn, .rc-calendar-time-picker-btn {
+    color: #F26522;
+}
+
+.rc-calendar-today-btn:hover, .rc-calendar-ok-btn:hover, .rc-calendar-time-picker-btn:hover {
+    color: #009384
+}
+
+.rc-calendar-year-panel-selected-cell .rc-calendar-year-panel-year {
+    background: #009384;
+}
+
+.rc-calendar-year-panel-year:hover {
+    background: #0093843b;
+}
+
+.rc-calendar-year-panel-selected-cell:hover .rc-calendar-year-panel-year:hover {
+    background: #009384;
+}
+
+.rc-calendar-month-panel-selected-cell .rc-calendar-month-panel-month {
+    background: #009384;
+}
+
+.rc-calendar-month-panel-selected-cell:hover .rc-calendar-month-panel-month:hover {
+     background: #009384;
+}
+
+.rc-calendar-month-panel-cell:hover .rc-calendar-month-panel-month:hover {
+    background: #0093843b;
+}
