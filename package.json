@@ -30,7 +30,11 @@
   "dependencies": {
     "lodash": "^4.17.4",
     "material-ui": "^0.19.4",
+    "moment": "^2.20.1",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.0.0",
+    "react-infinite-calendar": "^2.3.1",
+    "react-timekeeper": "^1.0.4"
   }
 }
