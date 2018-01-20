@@ -1,0 +1,17 @@
+.rc-select-enabled .rc-select-selection:hover {
+    border-color: #009384;
+}
+
+.rc-select-enabled .rc-select-selection:active {
+    border-color: #009384;
+}
+
+.rc-select-focused .rc-select-selection {
+    border-color: #009384;
+    box-shadow: 0 0 2px #009384;
+}
+
+li.rc-select-dropdown-menu-item-active {
+    background-color: #009384;
+    color: white;
+}

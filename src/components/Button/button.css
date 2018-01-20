@@ -1,0 +1,82 @@
+.btn {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    transition: background-color .4s;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn span {
+    display: block;
+    padding: 12px 24px;
+}
+
+.btn.submit {
+    color: white;
+    background-color: #00C853;
+}
+
+.btn.submit:hover {
+    background-color: #4CAF50;
+}
+
+.btn.cancel {
+    color: white;
+    background-color: #DD2C00;
+}
+
+.btn.cancel:hover {
+    background-color: #BF360C;
+}
+
+.btn.flat {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: none;
+}
+
+.btn.flat:hover {
+    background-color: rgba(0, 0, 0, 0.07)
+}
+
+.btn.flat.submit {
+    color: #00C853;
+}
+
+.btn.flat.submit:hover {
+    background-color: rgba(0, 200, 83, 0.1);
+}
+
+.btn.flat.cancel {
+    color: #DD2C00;
+}
+
+.btn.flat.cancel:hover {
+    background-color: rgba(221, 44, 0, 0.1);
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.btn.disabled {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.btn.flat.disabled {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.35);
+}
