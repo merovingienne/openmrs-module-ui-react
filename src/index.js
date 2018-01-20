@@ -1,5 +1,6 @@
 module.exports = {
-    NavBar: require('./components/NavBar'),
+    Button: require('./components/Button'),
     DatePicker: require('./components/DatePicker'),
-    Obutton: require('./components/Button')
+    DropDown: require('./components/Dropdown'),
+    NavBar: require('./components/NavBar')
 };
