@@ -1,0 +1,58 @@
+.btn {
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #009093;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #00a595;
+}
+
+.btn.submit {
+    background-color: #009384;
+    color: #ffffff;
+}
+
+.btn.submit:hover {
+    background-color: #00a595;
+}
+
+.btn.cancel {
+    border: 1px solid #F26522;
+    background-color: #F26522;
+    color: #ffffff;
+}
+
+.btn.cancel:hover {
+    background-color: #ff6422;
+}
+
+.btn.deactivated {
+    border: 1px solid #9b9b9b;
+    background-color: #d7d7d7;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.btn.flat {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+}
+
+.btn.flat:hover {
+    background-color: #00a595;
+    color: #ffffff;
+}
+
+.btn.cancel.flat:hover {
+    background-color: #ff6422;
+}
